@@ -2,11 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
     <link rel="stylesheet" href="./assets/style.css">
-    <title>Document</title>
+  
+    <title>Frontend Mentor | NFT preview card component</title>
 </head>
 <body>
-    
+
+  <main class="container">
+    <div class="card">
+        <div class="card__header"></div>
+        <div class="card__body">
+            <h1 class="card__title"><a href="#">Equilibrium #3429</a></h1>
+            <p>Our Equilibrium collection promotes balance and calm.</p>
+            <div class="card__infos">
+                <div class="card__currency">
+                    <img src="./assets/images/icon-ethereum.svg" alt="etherum icon">
+                    <span>0.041 ETH</span>
+                </div>
+                <div class="card__date">
+                    <img src="./assets/images/icon-clock.svg" alt="clock image">
+                    <span>3 days left</span>
+                </div>
+            </div>
+            <hr>
+            <div class="card__footer">
+                <div class="card__profile">
+                    Creation of <a href="#" class="card__profile__name">Jules Wyvern</a>
+                </div>
+                <div class="card__profile__img">
+                    <img src="./assets/images/image-avatar.png" alt="profile img">
+                </div>
+            </div>
+        </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/victoire20">YABA LOUO JEAN DE DIEU</a>.
+    </div>
+  </footer>
 </body>
 </html>
